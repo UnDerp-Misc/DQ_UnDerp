@@ -1079,4 +1079,16 @@
     <string name="notification_guts_kill_app_button_title">Nút buộc tắt ứng dụng</string>
     <string name="notification_guts_kill_app_button_summary">Hiển thị nút buộc tắt ứng dụng khi nhấn giữ lâu trình đơn của thông báo</string>
 
+    <!-- Selinux Switch -->
+    <string name="selinux_category">SELinux</string>
+    <string name="selinux_explanation_summary">SELinux là một tập hợp các sửa đổi kernel và các công cụ không gian người dùng. Thay đổi chế độ có thể gây ra hiệu ứng không mong muốn. Sử dụng có nguy cơ của riêng bạn.</string>
+    <string name="selinux_mode_title">Chế độ SELinux</string>
+    <string name="selinux_permissive_summary">Cho phép</string>
+    <string name="selinux_enforcing_summary">Thực thi</string>
+    <string name="selinux_persistence_title">Kiên trì khởi động lại</string>
+    <string name="selinux_persistence_summary">Khôi phục chế độ sepolicy đã đặt ở trên trên mỗi lần khởi động</string>
+    <string name="selinux_permissive_toast_title">Selinux được đặt thành cho phép!</string>
+    <string name="selinux_enforcing_toast_title">Selinux được đặt thành thực thi!</string>
+    <string name="cannot_get_su">Hành động thất bại vì thiếu quyền truy cập siêu người dùng</string>
+
 </resources>
