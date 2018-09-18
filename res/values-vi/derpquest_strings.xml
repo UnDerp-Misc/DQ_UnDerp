@@ -1271,4 +1271,8 @@
     <string name="status_bar_temperature_hide_scale_hide_image">Hiển thị nhiệt độ mà không có tỷ lệ</string>
     <string name="status_bar_show_image">Hiện hình ảnh</string>
 
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Thông báo ADB</string>
+    <string name="adb_notify_summary">Hiển thị một thông báo khi bật gỡ lỗi Android</string>
+
 </resources>

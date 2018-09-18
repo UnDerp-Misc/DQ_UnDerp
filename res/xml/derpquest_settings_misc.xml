@@ -24,6 +24,12 @@
         android:summary="@string/system_proxi_check_enabled_summary"
         android:defaultValue="false" />
 
+    <com.derpquest.settings.preferences.SecureSettingSwitchPreference
+        android:key="adb_notify"
+        android:title="@string/adb_notify"
+        android:summary="@string/adb_notify_summary"
+        android:defaultValue="true" />
+
     <com.derpquest.settings.preferences.GlobalSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
         android:title="@string/wakeup_when_plugged_unplugged_title"
