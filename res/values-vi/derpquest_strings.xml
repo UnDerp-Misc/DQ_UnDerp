@@ -1055,4 +1055,8 @@
     <string name="lockscreen_charging_animation_explosion">Vụ nổ</string>
     <string name="lockscreen_charging_animation_water">Nước</string>
 
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Hiển thị số lượng thông báo</string>
+    <string name="status_bar_notif_count_summary">Hiển thị số lượng thông báo đang chờ xử lý</string>
+
 </resources>

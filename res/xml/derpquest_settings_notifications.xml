@@ -74,6 +74,12 @@
             android:summary="@string/heads_up_settings_summary"
             android:fragment="com.derpquest.settings.fragments.HeadsUp" />
 
+        <com.derpquest.settings.preferences.SystemSettingSwitchPreference
+            android:key="status_bar_notif_count"
+            android:title="@string/status_bar_notif_count_title"
+            android:summary="@string/status_bar_notif_count_summary"
+            android:defaultValue="false" />
+
         <!-- Pulse Ambient Light (aka Edge Lighting) -->
         <com.derpquest.settings.preferences.SystemSettingMasterSwitchPreference
             android:key="pulse_ambient_light"
