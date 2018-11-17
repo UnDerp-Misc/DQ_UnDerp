@@ -52,7 +52,11 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
 
     private static final String KEY_POWERMENU_TORCH = "powermenu_torch";
 
+    private static final String POWER_MENU_ANIMATIONS = "power_menu_animations";
+
     private SwitchPreference mPowermenuTorch;
+
+    private ListPreference mPowerMenuAnimations;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -62,6 +66,12 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mPowerMenuAnimations = (ListPreference) findPreference(POWER_MENU_ANIMATIONS);
+        mPowerMenuAnimations.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.POWER_MENU_ANIMATIONS, 0)));
+        mPowerMenuAnimations.setSummary(mPowerMenuAnimations.getEntry());
+        mPowerMenuAnimations.setOnPreferenceChangeListener(this);
 
         mPowermenuTorch = (SwitchPreference) findPreference(KEY_POWERMENU_TORCH);
         mPowermenuTorch.setOnPreferenceChangeListener(this);
@@ -79,6 +89,12 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.POWERMENU_TORCH, value ? 1 : 0);
+            return true;
+        } else if (preference == mPowerMenuAnimations) {
+            Settings.System.putInt(getContentResolver(), Settings.System.POWER_MENU_ANIMATIONS,
+                    Integer.valueOf((String) newValue));
+            mPowerMenuAnimations.setValue(String.valueOf(newValue));
+            mPowerMenuAnimations.setSummary(mPowerMenuAnimations.getEntry());
             return true;
         }
         return false;

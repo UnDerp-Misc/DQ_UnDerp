@@ -1136,4 +1136,13 @@
     <string name="lockscreen_weather_omni_style_title">Omni style</string>
     <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
 
+    <!-- Power menu Animations  -->
+    <string name="powermenu_animations">Animation</string>
+    <string name="power_menu_animation_title">Power menu animation</string>
+    <string name="power_menu_animation_summary">Change the enter/exit animation of the power menu</string>
+    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
+    <string name="power_menu_animation_aosp">AOSP (default)</string>
+    <string name="power_menu_animation_bottom">Bottom</string>
+    <string name="power_menu_animation_top">Top</string>
+
 </resources>

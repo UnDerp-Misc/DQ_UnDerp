@@ -1183,4 +1183,13 @@
     <string name="lockscreen_weather_omni_style_title">Phong cách Omni</string>
     <string name="lockscreen_weather_pixel_style_title">Phong cách Pixel</string>
 
+    <!-- Power menu Animations  -->
+    <string name="powermenu_animations">Hoạt cảnh</string>
+    <string name="power_menu_animation_title">Hoạt cảnh trình đơn nguồn</string>
+    <string name="power_menu_animation_summary">Thay đổi hoạt cảnh nhập/thoát của trình đơn nguồn</string>
+    <string name="power_menu_animation_dialog_title">Chọn hoạt cảnh trình đơn nguồn</string>
+    <string name="power_menu_animation_aosp">AOSP (mặc định)</string>
+    <string name="power_menu_animation_bottom">Dưới</string>
+    <string name="power_menu_animation_top">Trên</string>
+
 </resources>
