@@ -1191,5 +1191,12 @@
     <string name="power_menu_animation_aosp">AOSP (mặc định)</string>
     <string name="power_menu_animation_bottom">Dưới</string>
     <string name="power_menu_animation_top">Trên</string>
+    <string name="power_menu_animation_xylon">Bay</string>
+    <string name="power_menu_animation_slide">Trượt</string>
+    <string name="power_menu_animation_turn">Rẽ</string>
+    <string name="power_menu_animation_fly">Phát sáng</string>
+    <string name="power_menu_animation_card">Ba chiều</string>
+    <string name="power_menu_animation_translucent_top">Mờ (trên)</string>
+    <string name="power_menu_animation_translucent_bottom">Mờ (dưới)</string>
 
 </resources>
