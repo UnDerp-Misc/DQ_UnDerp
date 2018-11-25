@@ -1071,4 +1071,8 @@
     <string name="voicemail_breath_title">Thở thư thoại</string>
     <string name="voicemail_breath_summary">Sẽ cung cấp cho các thông báo thư thoại của bạn một hiệu ứng thở trong thanh trạng thái</string>
 
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Nút buộc tắt ứng dụng</string>
+    <string name="notification_guts_kill_app_button_summary">Hiển thị nút buộc tắt ứng dụng khi nhấn giữ lâu trình đơn của thông báo</string>
+
 </resources>
