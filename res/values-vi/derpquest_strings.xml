@@ -1303,5 +1303,6 @@
     <string name="theming_settings_dashboard_icons_random">Biểu tượng ngẫu nhiên</string>
     <string name="theming_settings_dashboard_icons_random_bg_accent">Biểu tượng ngẫu nhiên màu nhấn Bg</string>
     <string name="theming_settings_dashboard_icons_accent_bg_random">Biểu tượng màu nhấn Bg ngẫu nhiên</string>
+    <string name="theming_settings_dashboard_icons_default_oneplus">Biểu tượng OnePlus</string>
 
 </resources>
