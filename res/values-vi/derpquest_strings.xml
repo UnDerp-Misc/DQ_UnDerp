@@ -1011,4 +1011,27 @@
     <string name="heads_up_blacklist_title">Danh sách đen</string>
     <string name="add_heads_up_blacklist_summary">Vô hiệu hóa thông báo nhanh cho các ứng dụng này</string>
 
+    <!-- Battery bar -->
+    <string name="sb_battery_bar_title">Thanh Pin</string>
+    <string name="sb_battery_bar_summary">Hiển thị và tùy chỉnh thanh pin gần thanh trạng thái hoặc thanh điều hướng</string>
+    <string name="sb_battery_bar_location">Vị trí thanh pin</string>
+    <string name="sb_battery_bar_color">Màu thanh pin</string>
+    <string name="sb_battery_bar_style_title">Kiểu thanh pin</string>
+    <string name="sb_battery_bar_thickness_title">Độ dày thanh pin</string>
+    <string name="sb_battery_bar_animate_title">Hiệu ứng sạc pin</string>
+    <string name="sb_battery_bar_animate_summary">Hiệu ứng sạc có thể dẫn đến trải nghiệm người dùng kém. Kích hoạt theo ý của bạn.</string>
+    <string name="sb_battery_bar_hide">Ẩn</string>
+    <string name="sb_battery_bar_statusbar">Thanh trạng thái</string>
+    <string name="sb_battery_bar_topnav">Trên thanh điều hướng</string>
+    <string name="sb_battery_bar_bottomnav">Dưới thanh điều hướng</string>
+    <string name="sb_battery_bar_reg">Đều đặn một phía</string>
+    <string name="sb_battery_bar_center">Trung tâm nhân đôi</string>
+    <string name="sb_battery_bar_charging_color">Màu thanh pin khi đang sạc</string>
+    <string name="sb_battery_bar_battery_low_color">Màu thanh pin khi pin yếu</string>
+    <string name="sb_battery_bar_reversed">Đảo ngược</string>
+    <string name="sb_battery_bar_use_gradient_color">Dùng màu chuyển sắc</string>
+    <string name="sb_battery_bar_gradient_color_summary">Sử dụng màu chuyển sắc làm thang đo cho mức pin</string>
+    <string name="sb_battery_bar_high_color">Màu khi pin ở mức cao"</string>
+    <string name="sb_battery_bar_low_color">Màu khi pin ở mức thấp"</string>
+
 </resources>
