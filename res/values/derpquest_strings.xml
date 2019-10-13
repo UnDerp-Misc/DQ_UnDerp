@@ -1268,4 +1268,11 @@
     <string name="theming_settings_dashboard_icons_accent_bg_random">Icon Accent Bg Random</string>
     <string name="theming_settings_dashboard_icons_default_oneplus">Icon OnePlus</string>
 
+    <!-- Screenshot -->
+    <string name="screenshot_type_title">Screenshot type</string>
+    <string name="screenshot_type_fullscreen">Take fullscreen screenshots</string>
+    <string name="screenshot_type_partial">Drag selection on the area you want to take as a screenshot</string>
+    <string name="screenshot_options_category">Screenshot options</string>
+    <string name="screenshot_options_summary">Customize screenshot attributes like time, delay,type etc</string>
+
 </resources>

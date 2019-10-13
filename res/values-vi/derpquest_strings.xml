@@ -1305,4 +1305,11 @@
     <string name="theming_settings_dashboard_icons_accent_bg_random">Biểu tượng màu nhấn Bg ngẫu nhiên</string>
     <string name="theming_settings_dashboard_icons_default_oneplus">Biểu tượng OnePlus</string>
 
+    <!-- Screenshot -->
+    <string name="screenshot_type_title">Kiểu ảnh chụp màn hình</string>
+    <string name="screenshot_type_fullscreen">Tạo ảnh chụp màn hình đầy đủ</string>
+    <string name="screenshot_type_partial">Kéo lựa chọn trên khu vực bạn muốn chụp ảnh màn hình</string>
+    <string name="screenshot_options_category">Tùy chọn ảnh chụp màn hình</string>
+    <string name="screenshot_options_summary">Tùy chỉnh các thuộc tính ảnh chụp màn hình như thời gian, độ trễ, loại vv</string>
+
 </resources>
