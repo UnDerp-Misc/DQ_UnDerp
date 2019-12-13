@@ -1279,4 +1279,8 @@
     <string name="qs_datausage_title">Hiển thị việc sử dụng dữ liệu trong tiêu đề qs</string>
     <string name="qs_datausage_subtitle">Hiển thị việc sử dụng dữ liệu trong tiêu đề cài đặt nhanh của sim được sử dụng cho dữ liệu</string>
 
+    <!-- Smart replies -->
+    <string name="hide_smart_replies_title">Ẩn trả lời thông minh</string>
+    <string name="hide_smart_replies_summary">Ẩn trả lời thông minh để tiết kiệm không gian màn hình với thông báo nhìn trộm</string>
+
 </resources>
