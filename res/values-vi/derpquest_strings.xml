@@ -852,6 +852,7 @@
     <string name="fod_pressed_state_vivo_cyan_shadow_et713">Lục lam Vivo (Bóng tối)</string>
     <string name="fod_pressed_state_vivo_green">Xanh lá Vivo</string>
     <string name="fod_pressed_state_vivo_yellow_shadow">Vàng Vivo (Bóng)</string>
+    <string name="fod_pressed_state_accent">Màu nhấn hệ thống</string>
 
     <!-- Lockscreen clock style -->
     <string name="lockscreen_clock_title">Kiểu đồng hồ</string>
