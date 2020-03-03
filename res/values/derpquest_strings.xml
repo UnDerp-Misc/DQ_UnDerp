@@ -898,6 +898,8 @@
     <string name="fod_recog_animation_pureview_future">Future</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
     <string name="fod_recog_animation_bluefirework">Blue Fireworks</string>
+    <string name="fod_recog_animation_coloros7_1">ColorOS7 1</string>
+    <string name="fod_recog_animation_coloros7_2">ColorOS7 2</string>
 
     <!-- Text Clock -->
     <string name="text_clock_customizations">Text Clock</string>

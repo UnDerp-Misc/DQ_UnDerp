@@ -787,6 +787,8 @@
         <item>@string/fod_recog_animation_pureview_future</item>
         <item>@string/fod_recog_animation_pureview_molecular</item>
         <item>@string/fod_recog_animation_bluefirework</item>
+        <item>@string/fod_recog_animation_coloros7_1</item>
+        <item>@string/fod_recog_animation_coloros7_2</item>
     </string-array>
 
     <string-array name="fod_recog_animation_values" translatable="false">
@@ -802,6 +804,8 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
+        <item>12</item>
+        <item>13</item>
     </string-array>
 
     <!-- Text Clock Alignment -->
