@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="derp_settings_title">DerpQuest</string>
+    <string name="derp_settings_title">UnDerp KangShit</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
@@ -431,7 +431,7 @@
     <!-- QS footer text -->
     <string name="derp_footer_text_show_title">Show QS footer text</string>
     <string name="derp_footer_text_string_title">Customize footer text</string>
-    <string name="derp_footer_text_string_summary">Set to empty for default #DerpFest</string>
+    <string name="derp_footer_text_string_summary">Set to empty for default #UnDerp</string>
 
     <!-- Battery mode -->
     <string name="qs_hide_battery_title">Hide battery icon</string>
@@ -483,7 +483,7 @@
     <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider" translatable="false">static</string>
+    <string name="static_header_proivider" translatable="false">static</string>
     <string name="daylight_header_provider" translatable="false">daylight</string>
     <string name="static_header_provider_title">Static image</string>
     <string name="daylight_header_provider_title">Image collection</string>
@@ -564,10 +564,10 @@
     <!-- Statusbar logo -->
     <string name="status_bar_logo_category_title">Statusbar Logo</string>
     <string name="status_bar_logo_category_summary">Enable to display logo in the status bar</string>
-    <string name="status_bar_logo_title">DerpFest logo</string>
+    <string name="status_bar_logo_title">UnDerp logo</string>
     <string name="status_bar_logo_right">Right</string>
     <string name="status_bar_logo_left">Left</string>
-    <string name="status_bar_logo_style_title">DerpFest logo style</string>
+    <string name="status_bar_logo_style_title">UnDerp logo style</string>
 
     <!-- Rounded corners -->
     <string name="corners_category_title">Rounded corners</string>
@@ -758,10 +758,7 @@
     <string name="no_stat_because_reset_state">Press reset to start collecting time in state data</string>
     <string name="no_stat_because_reset_wakelock">Press reset to start collecting wakelock data</string>
     <string name="no_stat_because_plugged">Please unplug power to get wakelock data</string>
-    <string name="no_states_file_found">No states file found. Are you sure your phone is
-        compatible?\n\nIf you are running a custom ROM or kernel, try
-        contacting its developer to inform him that the states file is not
-        readable.</string>
+    <string name="no_states_file_found">No states file found. Are you sure your phone is compatible?\n\nIf you are running a custom ROM or kernel, try contacting its developer to inform him that the states file is not readable.</string>
     <string name="deep_sleep">"Deep Sleep"</string>
     <string name="mt_refresh">Refresh</string>
     <string name="mt_share">Share</string>
@@ -914,36 +911,39 @@
     <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app</string>
 
     <!-- About -->
-    <string name="about_title">About</string>
-    <string name="about_team_category">Our Team</string>
+    <string name="about_title">About UnDerp KangShit</string>
+    <string name="about_team_category">Team</string>
     <string name="about_external_category">External Links</string>
-    <string name="about_ceo_title">CEO</string>
-    <string name="about_ceo_name">Alexander Brunswig</string>
-    <string name="about_ceo_git" translatable="false">https://github.com/NurKeinNeid</string>
-    <string name="about_dev_title">Lead Developer</string>
-    <string name="about_dev_name">Ido Ben-Hur</string>
-    <string name="about_dev_git" translatable="false">https://github.com/idoybh</string>
-    <string name="about_qa_title">Lead of QA</string>
-    <string name="about_qa_name">David Setiawan</string>
-    <string name="about_qa_git" translatable="false">https://github.com/fryevia</string>
+    <string name="about_credit_title">Credits and Sincere Thanks To</string>
+    <string name="about_credit_name">DerpFest with AOSiP and any other Devs-Rom</string>
+    <string name="about_credit_git" translatable="false">https://github.com/DerpLab</string>
+    <string name="about_ceo_title">Lead Team</string>
+    <string name="about_ceo_name">mrhainavn</string>
+    <string name="about_ceo_git" translatable="false">https://github.com/mrhainavn</string>
+    <string name="about_dev_title">Maintainer and Translation</string>
+    <string name="about_dev_name">dinhsan2000</string>
+    <string name="about_dev_git" translatable="false">https://github.com/dinhsan2000</string>
+    <string name="about_qa_title">Design and Translation</string>
+    <string name="about_qa_name">streetsamurai00mi</string>
+    <string name="about_qa_git" translatable="false">https://github.com/streetsamurai00mi</string>
     <string name="maintainer">Device Maintainer</string>
-    <string name="maintainer_name" translatable="false">Alexander Brunswig</string>
-    <string name="maintainer_telegram" translatable="false">https://t.me/DerpFest5T</string>
+    <string name="maintainer_name" translatable="false">UnDerp KangGer</string>
+    <string name="maintainer_telegram" translatable="false">https://t.me/UnDerpOT</string>
     <string name="about_site_title">Site</string>
-    <string name="about_site_summary">Visit DerpFest.org</string>
-    <string name="about_site_link" translatable="false">https://derpfest.org/</string>
+    <string name="about_site_summary">Site UnDerp</string>
+    <string name="about_site_link" translatable="false">https://underpdevs.wordpress.com/</string>
     <string name="about_tg_title">Telegram Group</string>
-    <string name="about_tg_summary">Official, Global Telegram Group</string>
-    <string name="about_tg_link" translatable="false">https://t.me/DerpFest5T</string>
+    <string name="about_tg_summary">Telegram Group Unofficial</string>
+    <string name="about_tg_link" translatable="false">https://t.me/UnDerpOT</string>
     <string name="about_wall_title">Wallpapers</string>
-    <string name="about_wall_summary">Community made telegram wallpapers channel</string>
-    <string name="about_wall_link" translatable="false">https://t.me/DerpFestWalls</string>
-    <string name="about_git_title">ROM Source Code</string>
-    <string name="about_git_summary">View our source on GitHub</string>
-    <string name="about_git_link" translatable="false">https://github.com/DerpLab</string>
-    <string name="about_devices_git_title">Devices Source Code</string>
-    <string name="about_devices_git_summary">View our device sources on GitHub</string>
-    <string name="about_devices_git_link" translatable="false">https://github.com/DerpFest-Devices</string>
+    <string name="about_wall_summary">Community made telegram wallpapers</string>
+    <string name="about_wall_link" translatable="false">https://t.me/UnDerpWalls</string>
+    <string name="about_git_title">ROM Source Code KangGit</string>
+    <string name="about_git_summary">View our source</string>
+    <string name="about_git_link" translatable="false">https://github.com/UnDerpKangShit</string>
+    <string name="about_devices_git_title">Devices Source Code KangGit</string>
+    <string name="about_devices_git_summary">View our device sources</string>
+    <string name="about_devices_git_link" translatable="false">https://github.com/UnDerpKangShit</string>
     <string name="about_phone_title">About Phone</string>
     <string name="about_phone_summary">Open the system\'s about page</string>
 
@@ -952,7 +952,7 @@
     <string name="about_device_fw">Required firmware</string>
     <string name="about_device_fw_ver" translatable="false"></string> <!-- Firmware version -->
     <string name="about_device_fw_link" translatable="false"></string> <!-- Firmware link -->
-    <string name="about_device_recovery">Recommended Recovery</string>
+    <string name="about_device_recovery">Recommended Recovery TWRP</string>
     <string name="about_device_recovery_ver" translatable="false"></string> <!-- Recovery version -->
     <string name="about_device_recovery_link" translatable="false"></string> <!-- Recovery link -->
 
