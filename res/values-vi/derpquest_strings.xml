@@ -213,9 +213,8 @@
     <string name="double_tap_sleep_lockscreen_title">Chạm hai lần vào màn hình khóa để tắt màn hình</string>
     <string name="double_tap_sleep_lockscreen_summary">Chạm hai lần vào bất cứ nơi nào trên màn hình khóa để đưa thiết bị vào chế độ ngủ</string>
 
-    <!-- Disable power menu on secure lock screen -->
-    <string name="lockscreen_power_menu_disabled_title">Tắt trình đơn nguồn khi đang khóa màn hình</string>
-    <string name="lockscreen_power_menu_disabled_summary">Tắt trình đơn nguồn trên màn hình khóa bảo mật</string>
+    <!-- Show power menu on secure lock screen -->
+    <string name="lockscreen_power_menu_disabled_title">Hiển thị trình đơn nguồn trên màn hình khóa an toàn</string>
 
     <!-- Battery Bar -->
     <string name="battery_bar_title">Thanh pin trên màn hình khóa</string>
