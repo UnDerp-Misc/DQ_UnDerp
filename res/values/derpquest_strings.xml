@@ -1002,4 +1002,8 @@
     <string name="ambient_battery_percent_title">Battery level on bottom</string> 
     <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string> 
 
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Charging animation</string>
+    <string name="lockscreen_charging_animation_summary">Display an animation when the device is plugged in</string>
+
 </resources>

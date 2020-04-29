@@ -1038,4 +1038,8 @@
     <string name="ambient_battery_percent_title">Mức pin dưới đáy</string> 
     <string name="ambient_battery_percent_summary">Cho phép hiển thị phần trăm pin trong khi ngủ gật</string> 
 
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Hiệu ứng động khi đang sạc</string>
+    <string name="lockscreen_charging_animation_summary">Hiển thị một hiệu ứng động khi thiết bị được sạc</string>
+
 </resources>
