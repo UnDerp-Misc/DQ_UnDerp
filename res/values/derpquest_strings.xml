@@ -998,4 +998,8 @@
     <string name="sb_battery_bar_high_color">High level color"</string>
     <string name="sb_battery_bar_low_color">Low level color"</string>
 
+    <!-- Ambient display battery percentage --> 
+    <string name="ambient_battery_percent_title">Battery level on bottom</string> 
+    <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string> 
+
 </resources>

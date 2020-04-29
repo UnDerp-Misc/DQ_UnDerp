@@ -121,6 +121,12 @@
            android:summary="@string/fp_unlock_keystore_summary"
            android:defaultValue="false" />
 
+       <com.derpquest.settings.preferences.SystemSettingSwitchPreference
+           android:key="ambient_battery_percent" 
+           android:title="@string/ambient_battery_percent_title" 
+           android:summary="@string/ambient_battery_percent_summary" 
+           android:defaultValue="true" />
+
         <!-- Charging Info -->
         <com.derpquest.settings.preferences.SystemSettingMasterSwitchPreference
             android:key="lockscreen_battery_info"

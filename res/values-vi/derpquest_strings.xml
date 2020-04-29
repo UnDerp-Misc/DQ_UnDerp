@@ -1034,4 +1034,8 @@
     <string name="sb_battery_bar_high_color">Màu khi pin ở mức cao"</string>
     <string name="sb_battery_bar_low_color">Màu khi pin ở mức thấp"</string>
 
+    <!-- Ambient display battery percentage --> 
+    <string name="ambient_battery_percent_title">Mức pin dưới đáy</string> 
+    <string name="ambient_battery_percent_summary">Cho phép hiển thị phần trăm pin trong khi ngủ gật</string> 
+
 </resources>
