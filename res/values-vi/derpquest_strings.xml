@@ -1039,6 +1039,12 @@
 
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Hiệu ứng động khi đang sạc</string>
-    <string name="lockscreen_charging_animation_summary">Hiển thị một hiệu ứng động khi thiết bị được sạc</string>
+    <string name="lockscreen_charging_animation_summary">Hiển thị hiệu ứng động Lottie khi thiết bị đang sạc</string>
+    <string name="lockscreen_charging_animation_off">Tắt</string>
+    <string name="lockscreen_charging_animation_flash">Đèn Flash</string>
+    <string name="lockscreen_charging_animation_battery">Pin</string>
+    <string name="lockscreen_charging_animation_drop">Giọt</string>
+    <string name="lockscreen_charging_animation_explosion">Vụ nổ</string>
+    <string name="lockscreen_charging_animation_water">Nước</string>
 
 </resources>
