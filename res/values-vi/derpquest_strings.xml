@@ -407,6 +407,8 @@
     <string name="status_bar_battery_percentage_text_next">Bên cạnh biểu tượng</string>
     <string name="status_bar_battery_text_charging_title">Hiện phần trăm pin khi sạc</string>
     <string name="status_bar_battery_text_charging_summary">Luôn hiển thị phần trăm pin khi đang sạc</string>
+    <string name="status_bar_battery_charging_bolt_title">Hiển thị một tia chớp khi đang sạc pin</string>
+    <string name="status_bar_battery_charging_bolt_summary">Hiển thị biểu tượng kí hiệu gần văn bản pin khi đang sạc</string>
 
     <!-- QS settings categories -->
     <string name="category_tiles_title">Phần các ô cài đặt nhanh </string>
@@ -903,40 +905,40 @@
 
     <!-- About -->
     <string name="about_title">Về UnDerp KangShit</string>
-    <string name="about_team_category">Đội ngũ</string>
-    <string name="about_external_category">Liên kết ngoài</string>
-    <string name="about_credit_title">Tín dụng và Xin Chân Thành Cảm Ơn Tới</string>
-    <string name="about_credit_name">DerpFest với AOSiP và bất kỳ Devs-Rom nào khác</string>
+    <string name="about_team_category">Đội Ngũ</string>
+    <string name="about_external_category">Liên Kết Ngoài</string>
+    <string name="about_credit_title">Tín Dụng và Cảm Ơn</string>
+    <string name="about_credit_name">DerpFest vs AOSiP</string>
     <string name="about_credit_git" translatable="false">https://github.com/DerpLab</string>
-    <string name="about_ceo_title">Trưởng nhóm</string>
+    <string name="about_ceo_title">Đội Trưởng</string>
     <string name="about_ceo_name">mrhainavn</string>
     <string name="about_ceo_git" translatable="false">https://github.com/mrhainavn</string>
-    <string name="about_dev_title">Duy trì và Dịch thuật</string>
+    <string name="about_dev_title">Duy Trì</string>
     <string name="about_dev_name">dinhsan2000</string>
     <string name="about_dev_git" translatable="false">https://github.com/dinhsan2000</string>
-    <string name="about_qa_title">Thiết kế và Dịch thuật</string>
+    <string name="about_qa_title">Thiết Kế</string>
     <string name="about_qa_name">streetsamurai00mi</string>
     <string name="about_qa_git" translatable="false">https://github.com/streetsamurai00mi</string>
-    <string name="maintainer">Duy trì cho thiết bị</string>
-    <string name="maintainer_name" translatable="false">UnDerp KangGer</string>
+    <string name="maintainer">Duy Trì Thiết Bị</string>
+    <string name="maintainer_name" translatable="false">KangGer</string>
     <string name="maintainer_telegram" translatable="false">https://t.me/UnDerpOT</string>
-    <string name="about_site_title">Trang web</string>
+    <string name="about_site_title">Trang Web</string>
     <string name="about_site_summary">Trang web UnDerp</string>
     <string name="about_site_link" translatable="false">https://underpdevs.wordpress.com/</string>
     <string name="about_tg_title">Nhóm Telegram</string>
-    <string name="about_tg_summary">Nhóm Telegram không chính thức</string>
+    <string name="about_tg_summary">Nhóm Telegram thảo luận</string>
     <string name="about_tg_link" translatable="false">https://t.me/UnDerpOT</string>
-    <string name="about_wall_title">Hình nền</string>
-    <string name="about_wall_summary">Cộng đồng làm hình nền telegram</string>
+    <string name="about_wall_title">Hình Nền</string>
+    <string name="about_wall_summary">Hình nền UnDerp</string>
     <string name="about_wall_link" translatable="false">https://t.me/UnDerpWalls</string>
-    <string name="about_git_title">Mã nguồn KangGit ROM</string>
-    <string name="about_git_summary">Xem mã nguồn của chúng tôi</string>
+    <string name="about_git_title">Mã Nguồn ROM</string>
+    <string name="about_git_summary">Mã nguồn chính</string>
     <string name="about_git_link" translatable="false">https://github.com/UnDerpKangShit</string>
-    <string name="about_devices_git_title">Mã nguồn KangGit thiết bị</string>
-    <string name="about_devices_git_summary">Xem thiết bị hỗ trợ của chúng tôi</string>
+    <string name="about_devices_git_title">Mã Nguồn Thiết Bị</string>
+    <string name="about_devices_git_summary">Thiết bị hỗ trợ</string>
     <string name="about_devices_git_link" translatable="false">https://github.com/UnDerpKangShit</string>
-    <string name="about_phone_title">Về thiết bị</string>
-    <string name="about_phone_summary">Mở trang thông tin thiết bị</string>
+    <string name="about_phone_title">Về Thiết Bị</string>
+    <string name="about_phone_summary">Trang thông tin thiết bị</string>
 
     <!-- About - Device specific links -->
     <string name="about_device_category">Liên kết cụ thể của thiết bị</string>
