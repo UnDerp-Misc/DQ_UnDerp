@@ -277,6 +277,10 @@
     <string name="clock_date_right">Bên trái đồng hồ</string>
     <string name="clock_date_left">Bên phải đồng hồ</string>
     <string name="clock_date_position">Vị trí ngày</string>
+    <string name="status_bar_clock_auto_hide_title">Tự động ẩn đồng hồ</string>
+    <string name="status_bar_clock_auto_hide_summary">Ẩn và hiển thị đồng hồ trong khoảng thời gian đều đặn</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Thời lượng ẩn</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Thời lượng hiện</string>
 
     <!-- Lockscreen information -->
     <string name="lockscreen_info_category_title">Thông tin màn hình khóa</string>
