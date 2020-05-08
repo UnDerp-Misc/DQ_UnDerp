@@ -788,6 +788,8 @@
     <string name="qs_bg_use_fw_summary">Tùy chỉnh màu Cài đặt nhanh</string>
     <string name="qs_bg_accent_title">Sử dụng màu nhấn</string>
     <string name="qs_bg_accent_summary">Đặt màu nền Cài đặt nhanh từ hệ thống màu nhấn</string>
+    <string name="qs_bg_use_new_tint">Tông màu</string>
+    <string name="qs_bg_use_new_tint_summary">Kích hoạt kiểu tông màu cho gạch QS</string>
 
     <!-- Themes -->
     <string name="theme_select_title">Chủ đề</string>
