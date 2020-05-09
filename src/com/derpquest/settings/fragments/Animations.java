@@ -24,6 +24,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -32,6 +33,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 import android.provider.Settings;
 import android.view.View;
+import android.widget.Toast;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.aosip.AwesomeAnimationHelper;
@@ -61,7 +63,9 @@ public class Animations extends SettingsPreferenceFragment
     private static final String WALLPAPER_CLOSE = "wallpaper_close";
     private static final String WALLPAPER_INTRA_OPEN = "wallpaper_intra_open";
     private static final String WALLPAPER_INTRA_CLOSE = "wallpaper_intra_close";
+    private static final String KEY_TOAST_ANIMATION = "toast_animation";
 
+    private ListPreference mToastAnimation;
     private CustomSeekBarPreference mAnimDuration;
     ListPreference mActivityOpenPref;
     ListPreference mActivityClosePref;
@@ -87,12 +91,20 @@ public class Animations extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.derpquest_settings_animations);
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        mContext = getActivity();
 
         mAnimDuration = (CustomSeekBarPreference) findPreference(ANIMATION_DURATION);
         int animdef = Settings.Global.getInt(resolver,
                 Settings.Global.ANIMATION_CONTROLS_DURATION, 0);
         mAnimDuration.setValue(animdef);
         mAnimDuration.setOnPreferenceChangeListener(this);
+
+        mToastAnimation = (ListPreference) findPreference(KEY_TOAST_ANIMATION);
+        mToastAnimation.setSummary(mToastAnimation.getEntry());
+        int CurrentToastAnimation = Settings.Global.getInt(getContentResolver(), Settings.Global.TOAST_ANIMATION, 1);
+        mToastAnimation.setValueIndex(CurrentToastAnimation); //set to index of default value
+        mToastAnimation.setSummary(mToastAnimation.getEntries()[CurrentToastAnimation]);
+        mToastAnimation.setOnPreferenceChangeListener(this);
 
         mAnimations = AwesomeAnimationHelper.getAnimationsList();
         int animqty = mAnimations.length;
@@ -243,6 +255,13 @@ public class Animations extends SettingsPreferenceFragment
             Settings.Global.putInt(resolver,
                     Settings.Global.ACTIVITY_ANIMATION_CONTROLS[10], val);
             preference.setSummary(getProperSummary(preference));
+            return true;
+
+        } else if (preference == mToastAnimation) {
+            int index = mToastAnimation.findIndexOfValue((String) newValue);
+            Settings.Global.putString(getContentResolver(), Settings.Global.TOAST_ANIMATION, (String) newValue);
+            mToastAnimation.setSummary(mToastAnimation.getEntries()[index]);
+            Toast.makeText(mContext, "Toast Test", Toast.LENGTH_SHORT).show();
             return true;
         }
         return false;
