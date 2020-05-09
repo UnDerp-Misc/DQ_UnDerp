@@ -174,10 +174,6 @@
     <string name="onscreen_category">Trên màn hình</string>
     <string name="notification_light_settings">Đèn thông báo</string>
 
-    <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Mở khóa bằng vân tay</string>
-    <string name="fp_unlock_keystore_summary">Mở khóa bằng vân tay ngay cả sau khi khởi động lại mà không có mã PIN/Mật khẩu/Mẫu\nLưu ý: Bạn tự chịu rủi ro khi sử dụng!</string>
-
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Rung khi xác thực vân tay</string>
     <string name="fprint_sucess_vib_summary">Rung khi xác thực vân tay thành công</string>

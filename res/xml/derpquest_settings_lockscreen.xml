@@ -116,12 +116,6 @@
             android:defaultValue="false" />
 
        <com.derpquest.settings.preferences.SystemSettingSwitchPreference
-           android:key="fp_unlock_keystore"
-           android:title="@string/fp_unlock_keystore_title"
-           android:summary="@string/fp_unlock_keystore_summary"
-           android:defaultValue="false" />
-
-       <com.derpquest.settings.preferences.SystemSettingSwitchPreference
            android:key="ambient_battery_percent" 
            android:title="@string/ambient_battery_percent_title" 
            android:summary="@string/ambient_battery_percent_summary" 
