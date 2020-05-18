@@ -23,17 +23,47 @@
         android:key="derp_logo" />
 
     <PreferenceCategory
-        android:key="about_team"
-        android:title="@string/about_team_category">
+        android:key="about_rom"
+        android:title="@string/about_rom_category">
 
         <Preference
-            android:key="credit_pref"
-            android:title="@string/about_credit_title"
-            android:summary="@string/about_credit_name">
+            android:key="rom_pref"
+            android:title="@string/about_rom_title"
+            android:summary="@string/about_rom_name">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="@string/about_credit_git"/>
+                android:data="@string/about_rom_git"/>
         </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="about_credit"
+        android:title="@string/about_credit_category">
+
+        <Preference
+            android:key="derpcredit_pref"
+            android:title="@string/about_credit_derp_title"
+            android:summary="@string/about_credit_derp_name">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_credit_derp_git"/>
+        </Preference>
+
+        <Preference
+            android:key="owlscredit_pref"
+            android:title="@string/about_credit_owls_title"
+            android:summary="@string/about_credit_olws_name">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_credit_owls_git"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="about_team"
+        android:title="@string/about_team_category">
 
         <Preference
             android:key="ceo_pref"
@@ -45,21 +75,21 @@
         </Preference>
 
         <Preference
-            android:key="dev_pref"
-            android:title="@string/about_dev_title"
-            android:summary="@string/about_dev_name">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="@string/about_dev_git"/>
-        </Preference>
-
-        <Preference
             android:key="qa_pref"
             android:title="@string/about_qa_title"
             android:summary="@string/about_qa_name">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="@string/about_qa_git"/>
+        </Preference>
+
+        <Preference
+            android:key="dev_pref"
+            android:title="@string/about_dev_title"
+            android:summary="@string/about_dev_name">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_dev_git"/>
         </Preference>
 
         <Preference

@@ -13,7 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="derp_settings_title">UnDerp KangShit</string>
+    <string name="derp_settings_title">UnDerp</string>
 
     <!-- Categories -->
     <string name="button_title">Phím</string>
@@ -915,24 +915,32 @@
     <string name="allow_signature_fake_summary">Cho phép các ứng dụng bỏ qua các hệ thống bảo mật bằng cách giả là một ứng dụng khác</string>
 
     <!-- About -->
-    <string name="about_title">Về UnDerp KangShit</string>
-    <string name="about_team_category">Đội Ngũ</string>
-    <string name="about_external_category">Liên Kết Ngoài</string>
-    <string name="about_credit_title">Tín Dụng và Cảm Ơn</string>
-    <string name="about_credit_name">DerpFest vs AOSiP</string>
-    <string name="about_credit_git" translatable="false">https://github.com/DerpLab</string>
-    <string name="about_ceo_title">Đội Trưởng</string>
+    <string name="about_title">About UnDerp</string>
+    <string name="about_rom_category">Về Rom</string>
+    <string name="about_rom_title">Chúng tôi là những người hâm mộ của AOSP tùy chỉnh và yêu thích biểu tượng con cú. Đó là lý do tại sao UnDerp ở đây</string>
+    <string name="about_rom_name">UnDerp Github</string>
+    <string name="about_rom_git" translatable="false">https://github.com/UnDerp-Misc</string>
+    <string name="about_credit_category">Tín dụng và Cảm ơn</string>
+    <string name="about_credit_derp_title">DerpFest</string>
+    <string name="about_credit_derp_name">DerpFest Github</string>
+    <string name="about_credit_derp_git" translatable="false">https://github.com/DerpLab</string>
+    <string name="about_credit_owls_title">AOSiP</string>
+    <string name="about_credit_olws_name">AOSiP Gihub</string>
+    <string name="about_credit_owls_git" translatable="false">https://github.com/AOSiP</string>
+    <string name="about_team_category">Đội ngũ</string>
+    <string name="about_ceo_title">Trưởng nhóm</string>
     <string name="about_ceo_name">mrhainavn</string>
     <string name="about_ceo_git" translatable="false">https://github.com/mrhainavn</string>
-    <string name="about_dev_title">Duy Trì</string>
-    <string name="about_dev_name">dinhsan2000</string>
-    <string name="about_dev_git" translatable="false">https://github.com/dinhsan2000</string>
-    <string name="about_qa_title">Thiết Kế</string>
+    <string name="about_qa_title">Thiết kế</string>
     <string name="about_qa_name">streetsamurai00mi</string>
     <string name="about_qa_git" translatable="false">https://github.com/streetsamurai00mi</string>
-    <string name="maintainer">Duy Trì Thiết Bị</string>
-    <string name="maintainer_name" translatable="false">KangGer</string>
+    <string name="about_dev_title">Chuyển ngữ</string>
+    <string name="about_dev_name">dinhsan2000</string>
+    <string name="about_dev_git" translatable="false">https://github.com/dinhsan2000</string>
+    <string name="maintainer">Duy trì thiết bị</string>
+    <string name="maintainer_name" translatable="false">KangKong</string>
     <string name="maintainer_telegram" translatable="false">https://t.me/UnDerpOT</string>
+    <string name="about_external_category">Liên kết ngoài</string>
     <string name="about_site_title">Trang Web</string>
     <string name="about_site_summary">Trang web UnDerp</string>
     <string name="about_site_link" translatable="false">https://underpdevs.wordpress.com/</string>
