@@ -29,10 +29,7 @@
         <Preference
             android:key="rom_pref"
             android:title="@string/about_rom_title"
-            android:summary="@string/about_rom_name">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="@string/about_rom_git"/>
+            android:summary="@string/about_rom_summary">
         </Preference>
 
     </PreferenceCategory>
@@ -44,7 +41,7 @@
         <Preference
             android:key="derpcredit_pref"
             android:title="@string/about_credit_derp_title"
-            android:summary="@string/about_credit_derp_name">
+            android:summary="@string/about_credit_derp_summary">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="@string/about_credit_derp_git"/>
@@ -53,10 +50,26 @@
         <Preference
             android:key="owlscredit_pref"
             android:title="@string/about_credit_owls_title"
-            android:summary="@string/about_credit_olws_name">
+            android:summary="@string/about_credit_olws_summary">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="@string/about_credit_owls_git"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="about_donate"
+        android:title="@string/about_donate_category">
+
+        <Preference
+            android:key="donate_pref"
+            android:title="@string/about_donate_paypal_title"
+            android:summary="@string/about_donate_paypal_summary"
+            settings:enableCopying="true" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_donate_paypal_link"/>
         </Preference>
 
     </PreferenceCategory>
@@ -66,40 +79,30 @@
         android:title="@string/about_team_category">
 
         <Preference
-            android:key="ceo_pref"
-            android:title="@string/about_ceo_title"
-            android:summary="@string/about_ceo_name">
+            android:key="leader_pref"
+            android:title="@string/about_leader_title"
+            android:summary="@string/about_leader_name">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="@string/about_ceo_git"/>
+                android:data="@string/about_leader_git"/>
         </Preference>
 
         <Preference
-            android:key="qa_pref"
-            android:title="@string/about_qa_title"
-            android:summary="@string/about_qa_name">
+            android:key="design_pref"
+            android:title="@string/about_design_title"
+            android:summary="@string/about_design_name">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="@string/about_qa_git"/>
+                android:data="@string/about_design_git"/>
         </Preference>
 
         <Preference
-            android:key="dev_pref"
-            android:title="@string/about_dev_title"
-            android:summary="@string/about_dev_name">
+            android:key="translator_pref"
+            android:title="@string/about_translator_title"
+            android:summary="@string/about_translator_name">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="@string/about_dev_git"/>
-        </Preference>
-
-        <Preference
-            android:key="maintainer"
-            android:title="@string/maintainer"
-            android:summary="@string/maintainer_name"
-            settings:enableCopying="true" >
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="@string/maintainer_telegram"/>
+                android:data="@string/about_translator_git"/>
         </Preference>
 
     </PreferenceCategory>
