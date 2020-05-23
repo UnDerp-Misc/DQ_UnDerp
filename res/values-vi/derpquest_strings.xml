@@ -1061,4 +1061,14 @@
     <string name="status_bar_notif_count_title">Hiển thị số lượng thông báo</string>
     <string name="status_bar_notif_count_summary">Hiển thị số lượng thông báo đang chờ xử lý</string>
 
+    <!-- Breathing Notifications -->
+    <string name="breathing_notifications_category">Thông báo thở</string>
+    <string name="breathing_notifications_title">Thông báo hơi thở</string>
+    <string name="sms_breath_title">Thở tin nhắn văn bản</string>
+    <string name="sms_breath_summary">Sẽ cung cấp cho thông báo tin nhắn văn bản của bạn một hiệu ứng thở trong thanh trạng thái</string>
+    <string name="missed_call_breath_title">Thở cuộc gọi nhỡ</string>
+    <string name="missed_call_breath_summary">Sẽ cung cấp cho các thông báo cuộc gọi nhỡ của bạn một hiệu ứng thở trong thanh trạng thái</string>
+    <string name="voicemail_breath_title">Thở thư thoại</string>
+    <string name="voicemail_breath_summary">Sẽ cung cấp cho các thông báo thư thoại của bạn một hiệu ứng thở trong thanh trạng thái</string>
+
 </resources>

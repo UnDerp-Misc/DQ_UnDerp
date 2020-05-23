@@ -43,6 +43,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
+import android.net.ConnectivityManager;
 import com.android.settings.Utils;
 import com.android.settingslib.search.SearchIndexable;
 
@@ -68,6 +69,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String BATTERY_ICON_STYLE = "battery_icon_style";
     private static final String NOTIFICATION_TICKER = "status_bar_show_ticker";
     private static final String BATTERY_BAR = "battery_bar_settings";
+    private static final String SMS_BREATH = "sms_breath";
+    private static final String MISSED_CALL_BREATH = "missed_call_breath";
+    private static final String VOICEMAIL_BREATH = "voicemail_breath";
 
     private SystemSettingMasterSwitchPreference mNetTrafficState;
     private SystemSettingMasterSwitchPreference mStatusBarClock;
@@ -76,6 +80,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private SystemSettingMasterSwitchPreference mBatteryIconStyle;
     private SystemSettingMasterSwitchPreference mNotificationTicker;
     private SystemSettingMasterSwitchPreference mBatteryBar;
+    private SystemSettingMasterSwitchPreference mSmsBreath;
+    private SystemSettingMasterSwitchPreference mMissedCallBreath;
+    private SystemSettingMasterSwitchPreference mVoicemailBreath;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -83,7 +90,33 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.derpquest_settings_statusbar);
         PreferenceScreen prefSet = getPreferenceScreen();
-        final ContentResolver resolver = getActivity().getContentResolver();
+        ContentResolver resolver = getActivity().getContentResolver();
+
+            // Breathing Notifications
+            mSmsBreath = (SystemSettingMasterSwitchPreference) findPreference(SMS_BREATH);
+            mMissedCallBreath = (SystemSettingMasterSwitchPreference) findPreference(MISSED_CALL_BREATH);
+            mVoicemailBreath = (SystemSettingMasterSwitchPreference) findPreference(VOICEMAIL_BREATH);
+
+            ConnectivityManager cm = (ConnectivityManager)
+                    getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+
+            if (cm.isNetworkSupported(ConnectivityManager.TYPE_MOBILE)) {
+                mSmsBreath.setChecked(Settings.Global.getInt(resolver,
+                        Settings.Global.KEY_SMS_BREATH, 0) == 1);
+                mSmsBreath.setOnPreferenceChangeListener(this);
+
+                mMissedCallBreath.setChecked(Settings.Global.getInt(resolver,
+                        Settings.Global.KEY_MISSED_CALL_BREATH, 0) == 1);
+                mMissedCallBreath.setOnPreferenceChangeListener(this);
+
+                mVoicemailBreath.setChecked(Settings.System.getInt(resolver,
+                        Settings.System.KEY_VOICEMAIL_BREATH, 0) == 1);
+                mVoicemailBreath.setOnPreferenceChangeListener(this);
+            } else {
+                prefSet.removePreference(mSmsBreath);
+                prefSet.removePreference(mMissedCallBreath);
+                prefSet.removePreference(mVoicemailBreath);
+            }
 
         mNetTrafficState = (SystemSettingMasterSwitchPreference)
                 findPreference(NETWORK_TRAFFIC_STATE);
@@ -139,6 +172,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+ 	    ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mNetTrafficState) {
             boolean enabled = (boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
@@ -174,6 +208,18 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             boolean enabled = (boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.BATTERY_BAR_LOCATION, enabled ? 1 : 0);
+            return true;
+        } else  if (preference == mSmsBreath) {
+            boolean value = (Boolean) objValue;
+            Settings.Global.putInt(getContentResolver(), SMS_BREATH, value ? 1 : 0);
+            return true;
+        } else if (preference == mMissedCallBreath) {
+            boolean value = (Boolean) objValue;
+            Settings.Global.putInt(getContentResolver(), MISSED_CALL_BREATH, value ? 1 : 0);
+            return true;
+        } else if (preference == mVoicemailBreath) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getContentResolver(), VOICEMAIL_BREATH, value ? 1 : 0);
             return true;
         }
         return false;
