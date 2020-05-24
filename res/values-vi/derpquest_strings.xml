@@ -396,6 +396,8 @@
     <string name="status_bar_battery_style_q">Biểu tượng đứng (mặc định)</string>
     <string name="status_bar_battery_style_dotted_circle">Vòng tròn chấm</string>
     <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_big_circle">Vòng tròn lớn</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn (Đầy)</string>
     <string name="status_bar_battery_style_text">Số</string>
     <string name="status_bar_battery_style_hidden">Ẩn</string>
     <string name="battery_percent_title">Phần trăm pin</string>
