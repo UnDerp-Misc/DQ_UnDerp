@@ -1089,6 +1089,7 @@
     <string name="selinux_persistence_summary">Khôi phục chế độ sepolicy đã đặt ở trên trên mỗi lần khởi động</string>
     <string name="selinux_permissive_toast_title">Selinux được đặt thành cho phép!</string>
     <string name="selinux_enforcing_toast_title">Selinux được đặt thành thực thi!</string>
+    <string name="selinux_unrooted_summary">Không thể phát hiện root. Bạn phải có root để sử dụng các công tắc này</string>
     <string name="cannot_get_su">Hành động thất bại vì thiếu quyền truy cập siêu người dùng</string>
 
 </resources>
