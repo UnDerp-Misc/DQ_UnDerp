@@ -804,6 +804,8 @@
     <!-- Statusbar ticker -->
     <string name="status_bar_show_ticker_title">Thông báo nhanh (thử nghiệm)</string>
     <string name="status_bar_show_ticker_summary">Tùy chỉnh xem trước thông báo trên thanh trạng thái</string>
+    <string name="status_bar_ticker_music_title">Thông báo nhanh đa phương tiện</string>
+    <string name="status_bar_ticker_music_summary">Hiển thị thông báo nhanh cho các bản nhạc đã chuyển</string>
     <string name="ticker_animation_mode_title">Hiệu ứng động</string>
     <string name="ticker_animation_mode_alpha_fade">Mờ dần</string>
     <string name="ticker_animation_mode_scroll">Cuộn</string>
