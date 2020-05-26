@@ -1140,4 +1140,11 @@
     <string name="toast_SlideLeftRight_animation">Trượt từ trái qua phải</string>
     <string name="toast_SlideRightLeft_animation">Trượt từ phải qua trái</string>
 
+    <!-- Custom lockscreen notifications count -->
+    <string name="lockscreen_notifications_category">Thông báo trên màn hình khóa</string>
+    <string name="lock_screen_custom_notif_title">Tùy chỉnh số lượng thông báo</string>
+    <string name="lock_screen_custom_notif_summary">Chuyển đổi để bật cài đặt thông báo tối đa trên màn hình khóa</string>
+    <string name="lockscreen_max_notif_config_title">Số lượng thông báo tối đa</string>
+    <string name="lockscreen_max_notif_config_summary">Kiểm soát số lượng thông báo mở rộng tối đa để hiển thị trên màn hình khóa</string>
+
 </resources>
