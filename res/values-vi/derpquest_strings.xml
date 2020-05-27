@@ -1147,4 +1147,17 @@
     <string name="lockscreen_max_notif_config_title">Số lượng thông báo tối đa</string>
     <string name="lockscreen_max_notif_config_summary">Kiểm soát số lượng thông báo mở rộng tối đa để hiển thị trên màn hình khóa</string>
 
+    <!-- Omni Jaws -->
+    <string name="weather_title">Cài đặt thời tiết</string>
+    <string name="weather_summary">Cấu hình thời tiết OmniJaws</string>
+    <string name="weather_config_title">Dịch vụ thời tiết</string>
+    <string name="weather_config_summary">Cài đặt dịch vụ hệ thống</string>
+    <string name="header_weather_title">Tiêu đề xem thời tiết</string>
+    <string name="header_weather_summary">Cho phép hiển thị tiêu đề thời tiết trong bảng thông báo</string>
+    <string name="weather_icon_pack_title">Gói biểu tượng điều kiện</string>
+    <string name="weather_icon_pack_note">Lưu ý rằng bạn có thể cài đặt gói biểu tượng mới từ cửa hàng ứng dụng bằng cách tìm kiếm \"Biểu tượng Chronus\"</string>
+    <string name="weather_icon_pack_info_title">Gói biểu tượng điều kiện được sử dụng trong cài đặt nhanh và màn hình khóa</string>
+    <string name="lockscreen_weather_title">Hiển thị điều kiện thời tiết</string>
+    <string name="lockscreen_weather_summary">Hiển thị điều kiện thời tiết và nhiệt độ hiện tại</string>
+
 </resources>
