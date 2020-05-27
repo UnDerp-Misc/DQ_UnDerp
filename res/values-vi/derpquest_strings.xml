@@ -931,19 +931,32 @@
     <string name="about_credit_olws_summary">AOSiP Gihub</string>
     <string name="about_credit_owls_git" translatable="false">https://github.com/AOSiP</string>
     <string name="about_donate_category">Quyên góp</string>
-    <string name="about_donate_paypal_title">Mua cho tôi một ly cà phê</string>
+    <string name="about_donate_paypal_title">Mua cho tôi một ly cà phê bằng cách nhấn vào đây</string>
     <string name="about_donate_paypal_summary">Nếu bạn thích công việc của chúng tôi và muốn giúp đỡ</string>
     <string name="about_donate_paypal_link" translatable="false">paypal.me/mrhainavn</string>
     <string name="about_team_category">Đội ngũ</string>
     <string name="about_leader_title">Trưởng nhóm</string>
-    <string name="about_leader_name">mrhainavn</string>
+    <string name="about_leader_name">mrhainavn github</string>
     <string name="about_leader_git" translatable="false">https://github.com/mrhainavn</string>
     <string name="about_design_title">Thiết kế</string>
-    <string name="about_design_name">streetsamurai00mi</string>
+    <string name="about_design_name">streetsamurai00mi github</string>
     <string name="about_design_git" translatable="false">https://github.com/streetsamurai00mi</string>
     <string name="about_translator_title">Chuyển ngữ</string>
-    <string name="about_translator_name">dinhsan2000</string>
+    <string name="about_translator_name">dinhsan2000 github</string>
     <string name="about_translator_git" translatable="false">https://github.com/dinhsan2000</string>
+    <string name="about_maintainer_category">Duy trì thiết bị</string>
+    <string name="about_maintainer_pyxis_title">Mi 9 Lite (pyxis)</string>
+    <string name="about_maintainer_pyxis_name">Hải Nguyễn telegram</string>
+    <string name="about_maintainer_pyxis_tg" translatable="false">https://t.me/mrhainavn</string>
+    <string name="about_maintainer_whyred_title">Redmi Note 5 (whyred)</string>
+    <string name="about_maintainer_whyred_name">Đinh San telegram</string>
+    <string name="about_maintainer_whyred_tg" translatable="false">https://t.me/san2k</string>
+    <string name="about_maintainer_lavender_title">Redmi Note 7 (lavender)</string>
+    <string name="about_maintainer_lavender_name">Jimgsey telegram</string>
+    <string name="about_maintainer_lavender_tg" translatable="false">https://t.me/Jimgsey</string>
+    <string name="about_maintainer_ginkgo_title">Redmi Note 8 (ginkgo)</string>
+    <string name="about_maintainer_ginkgo_name">Khương Hùng telegram</string>
+    <string name="about_maintainer_ginkgo_tg" translatable="false">https://t.me/hung2408</string>
     <string name="about_external_category">Liên kết ngoài</string>
     <string name="about_site_title">Tải Rom</string>
     <string name="about_site_summary">Trang để tải UnDerp</string>

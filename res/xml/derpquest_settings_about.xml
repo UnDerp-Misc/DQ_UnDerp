@@ -108,6 +108,48 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="about_maintainer"
+        android:title="@string/about_maintainer_category">
+
+        <Preference
+            android:key="ginkgo_pref"
+            android:title="@string/about_maintainer_ginkgo_title"
+            android:summary="@string/about_maintainer_ginkgo_name">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_maintainer_ginkgo_tg"/>
+        </Preference>
+
+        <Preference
+            android:key="lavender_pref"
+            android:title="@string/about_maintainer_lavender_title"
+            android:summary="@string/about_maintainer_lavender_name">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_maintainer_lavender_tg"/>
+        </Preference>
+
+        <Preference
+            android:key="pyxis_pref"
+            android:title="@string/about_maintainer_pyxis_title"
+            android:summary="@string/about_maintainer_pyxis_name">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_maintainer_pyxis_tg"/>
+        </Preference>
+
+        <Preference
+            android:key="whyred_pref"
+            android:title="@string/about_maintainer_whyred_title"
+            android:summary="@string/about_maintainer_whyred_name">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_maintainer_whyred_tg"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="about_device_links"
         android:title="@string/about_device_category">
 

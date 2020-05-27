@@ -921,19 +921,32 @@
     <string name="about_credit_olws_summary">AOSiP Gihub</string>
     <string name="about_credit_owls_git" translatable="false">https://github.com/AOSiP</string>
     <string name="about_donate_category">Donate</string>
-    <string name="about_donate_paypal_title">Buy me a coffee</string>
+    <string name="about_donate_paypal_title">Buy me a coffee by click here</string>
     <string name="about_donate_paypal_summary">If you like our work and want to help</string>
     <string name="about_donate_paypal_link" translatable="false">paypal.me/mrhainavn</string>
     <string name="about_team_category">Team</string>
     <string name="about_leader_title">Leader</string>
-    <string name="about_leader_name">mrhainavn</string>
+    <string name="about_leader_name">mrhainavn github</string>
     <string name="about_leader_git" translatable="false">https://github.com/mrhainavn</string>
     <string name="about_design_title">Design</string>
-    <string name="about_design_name">streetsamurai00mi</string>
+    <string name="about_design_name">streetsamurai00mi github</string>
     <string name="about_design_git" translatable="false">https://github.com/streetsamurai00mi</string>
     <string name="about_translator_title">Translator</string>
-    <string name="about_translator_name">dinhsan2000</string>
+    <string name="about_translator_name">dinhsan2000 github</string>
     <string name="about_translator_git" translatable="false">https://github.com/dinhsan2000</string>
+    <string name="about_maintainer_category">Maintainer Device</string>
+    <string name="about_maintainer_pyxis_title">Mi 9 Lite (pyxis)</string>
+    <string name="about_maintainer_pyxis_name">HaiNguyen telegram</string>
+    <string name="about_maintainer_pyxis_tg" translatable="false">https://t.me/mrhainavn</string>
+    <string name="about_maintainer_whyred_title">Redmi Note 5 (whyred)</string>
+    <string name="about_maintainer_whyred_name">DinhSan telegram</string>
+    <string name="about_maintainer_whyred_tg" translatable="false">https://t.me/san2k</string>
+    <string name="about_maintainer_lavender_title">Redmi Note 7 (lavender)</string>
+    <string name="about_maintainer_lavender_name">Jimgsey telegram</string>
+    <string name="about_maintainer_lavender_tg" translatable="false">https://t.me/Jimgsey</string>
+    <string name="about_maintainer_ginkgo_title">Redmi Note 8 (ginkgo)</string>
+    <string name="about_maintainer_ginkgo_name">KhuongHung telegram</string>
+    <string name="about_maintainer_ginkgo_tg" translatable="false">https://t.me/hung2408</string>
     <string name="about_external_category">External Links</string>
     <string name="about_site_title">Download Rom</string>
     <string name="about_site_summary">Site to download UnDerp</string>
