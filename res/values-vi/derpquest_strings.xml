@@ -1177,6 +1177,8 @@
     <string name="lockscreen_weather_show_city_summary">Hiển thị tên của thành phố hiện tại bên trái hình ảnh</string>
     <string name="lockscreen_weather_show_temp_title">Hiển thị nhiệt độ</string>
     <string name="lockscreen_weather_show_temp_summary">Hiển thị nhiệt độ thành phố hiện tại bên phải hình ảnh</string>
+    <string name="lockscreen_weather_show_image_title">Hiển thị hình ảnh điều kiện</string>
+    <string name="lockscreen_weather_show_image_summary">Hiển thị hình ảnh điều kiện thời tiết</string>
 
     <!-- Lockscreen weather style -->
     <string name="lockscreen_weather_style_title">Phong cách thời tiết</string>

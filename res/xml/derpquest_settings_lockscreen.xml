@@ -198,6 +198,13 @@
             android:dependency="lockscreen_weather_enabled"
             android:defaultValue="true" />
 
+        <com.derpquest.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_show_image"
+            android:title="@string/lockscreen_weather_show_image_title"
+            android:summary="@string/lockscreen_weather_show_image_summary"
+            android:dependency="lockscreen_weather_enabled"
+            android:defaultValue="false" />
+
         <Preference
             android:key="omnijaws_settings"
             android:title="@string/weather_title"
