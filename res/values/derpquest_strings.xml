@@ -923,7 +923,7 @@
     <string name="about_donate_category">Donate</string>
     <string name="about_donate_paypal_title">Buy me a coffee by click here</string>
     <string name="about_donate_paypal_summary">If you like our work and want to help</string>
-    <string name="about_donate_paypal_link" translatable="false">paypal.me/mrhainavn</string>
+    <string name="about_donate_paypal_link" translatable="false">https://www.paypal.me/mrhainavn</string>
     <string name="about_team_category">Team</string>
     <string name="about_leader_title">Leader</string>
     <string name="about_leader_name">mrhainavn github</string>

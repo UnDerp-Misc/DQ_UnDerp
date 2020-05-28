@@ -933,7 +933,7 @@
     <string name="about_donate_category">Quyên góp</string>
     <string name="about_donate_paypal_title">Mua cho tôi một ly cà phê bằng cách nhấn vào đây</string>
     <string name="about_donate_paypal_summary">Nếu bạn thích công việc của chúng tôi và muốn giúp đỡ</string>
-    <string name="about_donate_paypal_link" translatable="false">paypal.me/mrhainavn</string>
+    <string name="about_donate_paypal_link" translatable="false">https://www.paypal.me/mrhainavn</string>
     <string name="about_team_category">Đội ngũ</string>
     <string name="about_leader_title">Trưởng nhóm</string>
     <string name="about_leader_name">mrhainavn github</string>
