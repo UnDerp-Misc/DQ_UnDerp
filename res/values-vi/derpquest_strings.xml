@@ -1227,4 +1227,23 @@
     <string name="listview_anticipate_overshoot_interpolator">Dự đoán và vượt quá</string>
     <string name="listview_bounce_interpolator">Nẩy lên</string>
 
+    <!-- Lockscreen Colors -->
+    <string name="lockscreen_colors">Màu sắc màn hình khóa</string>
+    <string name="lockscreen_clock_color">Đồng hồ màn hình khóa</string>
+    <string name="lockscreen_colors_summary">Thay đổi màu sắc của các tiện ích màn hình khóa</string>
+    <string name="lockscreen_clock_date_color">Ngày tháng màn hình khóa</string>
+    <string name="lockscreen_colors_reset_title">Đặt lại màu màn hình khóa</string>
+    <string name="lockscreen_colors_reset_message">Bạn có chắc chắn muốn đặt lại các màu này về mặc định?</string>
+    <string name="lockscreen_colors_title">Màu sắc màn hình khóa</string>
+    <string name="lockscreen_owner_info_color">Thông tin chủ sở hữu</string>
+    <string name="lockscreen_phone_icon_color">Phím tắt bên trái dưới cùng màn hình khóa</string>
+    <string name="lockscreen_lock_icon_color">Biểu tượng khóa màn hình khóa</string>
+    <string name="lockscreen_camera_icon_color">Phím tắt bên phải dưới cùng màn hình khóa</string>
+    <string name="ls_shortcut_icon_color">Các phím tắt màn hình khóa</string>
+    <string name="lockscreen_indication_text_color">Văn bản khóa màn hình</string>
+    <string name="lockscreen_weather_temp_color">Màu nhiệt độ thời tiết</string>
+    <string name="lockscreen_weather_city_color">Màu tên thành phố</string>
+    <string name="lockscreen_weather_icon_color">Màu biểu tượng thời tiết</string>
+    <string name="yes">ĐỒNG Ý</string>
+
 </resources>
