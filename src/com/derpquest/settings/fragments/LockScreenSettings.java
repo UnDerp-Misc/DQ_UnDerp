@@ -67,6 +67,8 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String LOCKSCREEN_INFO = "lockscreen_info";
     private static final String MEDIA_ART = "lockscreen_media_metadata";
     private static final String LOCKSCREEN_VISUALIZER_ENABLED = "lockscreen_visualizer_enabled";
+    private static final String LOCK_WEATHER_TEMP_FONTS = "lock_weather_temp_fonts";
+    private static final String LOCK_WEATHER_CITY_FONTS = "lock_weather_city_fonts";
 
     private CustomSeekBarPreference mPulseBrightness;
     private CustomSeekBarPreference mDozeBrightness;
@@ -81,6 +83,8 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private FingerprintManager mFingerprintManager;
     private PreferenceCategory mFODIconPickerCategory;
     private SwitchPreference mFingerprintVib;
+    ListPreference mLockTempFonts;
+    ListPreference mLockCityFonts;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -90,6 +94,20 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
         Resources resources = getResources();
+
+        // Lockscren Weather Temp Fonts
+        mLockTempFonts = (ListPreference) findPreference(LOCK_WEATHER_TEMP_FONTS);
+        mLockTempFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_WEATHER_TEMP_FONTS, 27)));
+        mLockTempFonts.setSummary(mLockTempFonts.getEntry());
+        mLockTempFonts.setOnPreferenceChangeListener(this);
+
+        // Lockscren Weather City Fonts
+        mLockCityFonts = (ListPreference) findPreference(LOCK_WEATHER_CITY_FONTS);
+        mLockCityFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_WEATHER_CITY_FONTS, 27)));
+        mLockCityFonts.setSummary(mLockCityFonts.getEntry());
+        mLockCityFonts.setOnPreferenceChangeListener(this);
 
         mBatteryInfo = (SystemSettingMasterSwitchPreference)
                 findPreference(LOCKSCREEN_BATTERY_INFO);
@@ -214,6 +232,18 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             int value = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.DOZE_BRIGHTNESS, value);
+            return true;
+       } else if (preference == mLockTempFonts) {
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_WEATHER_TEMP_FONTS,
+                    Integer.valueOf((String) newValue));
+            mLockTempFonts.setValue(String.valueOf(newValue));
+            mLockTempFonts.setSummary(mLockTempFonts.getEntry());
+            return true;
+       } else if (preference == mLockCityFonts) {
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_WEATHER_CITY_FONTS,
+                    Integer.valueOf((String) newValue));
+            mLockCityFonts.setValue(String.valueOf(newValue));
+            mLockCityFonts.setSummary(mLockCityFonts.getEntry());
             return true;
         }
         return false;

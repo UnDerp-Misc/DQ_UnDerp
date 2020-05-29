@@ -1246,4 +1246,12 @@
     <string name="lockscreen_weather_icon_color">Màu biểu tượng thời tiết</string>
     <string name="yes">ĐỒNG Ý</string>
 
+    <!-- LS Weather Temp & City Fonts -->
+    <string name="lock_weather_temp_font_title">Phông chữ nhiệt độ thời tiết màn hình khóa</string>
+    <string name="lock_weather_temp_font_summary">Thay đổi phông mặc định của nhiệt độ thời tiết màn hình khóa</string>
+    <string name="lock_weather_temp_font_dialog_title">Chọn phông chữ nhiệt độ thời tiết</string>
+    <string name="lock_weather_city_font_title">Phông chữ tên thành phố trong phần thời tiết màn hình khóa</string>
+    <string name="lock_weather_city_font_summary">Thay đổi phông mặc định của tên thành phố trong phần thời tiết màn hình khóa</string>
+    <string name="lock_weather_city_dialog_title">Chọn phông chữ tên thành phố</string>
+
 </resources>
