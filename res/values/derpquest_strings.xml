@@ -1207,4 +1207,21 @@
     <string name="lock_weather_city_font_summary">Change the default font of the lockscreen weather city</string>
     <string name="lock_weather_city_dialog_title">Select lock weather city font</string>
 
+    <!-- StatusBar weather settings -->
+    <string name="sb_weather_title">StatusBar Weather</string>
+    <string name="sb_weather_summary">config statusBar and qs weather</string>
+    <string name="statusbar_weather_title">Status bar weather</string>
+    <string name="statusbar_weather_summary">Configure from QS settings/Weather</string>
+    <string name="status_bar_weather_location_title">Weather Placement</string>
+    <string name="sbweather_disabled">Disabled</string>
+    <string name="sbweather_statusbar">Header</string>
+    <string name="sbweather_expanded_statusbar">StatusBar</string>
+    <string name="statusbar_weather_dialog_title">Status bar weather style</string>
+    <string name="status_bar_weather_hidden">Hide weather</string>
+    <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
+    <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
+    <string name="status_bar_show_image">Show image</string>
+
 </resources>

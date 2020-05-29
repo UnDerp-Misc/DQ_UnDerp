@@ -1254,4 +1254,21 @@
     <string name="lock_weather_city_font_summary">Thay đổi phông mặc định của tên thành phố trong phần thời tiết màn hình khóa</string>
     <string name="lock_weather_city_dialog_title">Chọn phông chữ tên thành phố</string>
 
+    <!-- StatusBar weather settings -->
+    <string name="sb_weather_title">Thời tiết thanh trạng thái</string>
+    <string name="sb_weather_summary">Cấu hình thời tiết trên thanh trạng thái và cài đặt nhanh</string>
+    <string name="statusbar_weather_title">Thời tiết thanh trạng thái</string>
+    <string name="statusbar_weather_summary">Cấu hình từ cài đặt nhanh/thời tiết</string>
+    <string name="status_bar_weather_location_title">Vị trí thời tiết</string>
+    <string name="sbweather_disabled">Vô hiệu hóa</string>
+    <string name="sbweather_statusbar">Tiêu đề</string>
+    <string name="sbweather_expanded_statusbar">Thanh trạng thái</string>
+    <string name="statusbar_weather_dialog_title">Kiểu thời tiết thanh trạng thái</string>
+    <string name="status_bar_weather_hidden">Ẩn thời tiết</string>
+    <string name="status_bar_temperature_image_show_scale">Hiển thị nhiệt độ với tỷ lệ và hình ảnh</string>
+    <string name="status_bar_temperature_image_hide_scale">Hiển thị nhiệt độ với hình ảnh không có tỷ lệ</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Hiển thị nhiệt độ với tỷ lệ</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Hiển thị nhiệt độ mà không có tỷ lệ</string>
+    <string name="status_bar_show_image">Hiện hình ảnh</string>
+
 </resources>
