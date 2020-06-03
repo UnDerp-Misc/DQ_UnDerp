@@ -1283,10 +1283,6 @@
     <string name="hide_smart_replies_title">Ẩn trả lời thông minh</string>
     <string name="hide_smart_replies_summary">Ẩn trả lời thông minh để tiết kiệm không gian màn hình với thông báo nhìn trộm</string>
 
-    <!-- OOS clear all button -->
-    <string name="enable_clear_all_button">Thay thế nút xóa tất cả dạng chữ bằng nút xóa đẹp hơn</string>
-    <string name="enable_clear_all_button_summary">Hiển thị thông báo nút xóa tất cả trong cài đặt nhanh thay vì văn bản mặc định</string>
-
     <!-- OneUI-Like SystemUI -->
     <string name="enable_oneui">Giao diện OneUI</string>
     <string name="enable_oneui_summary">Hiển thị thanh hành động cài đặt trên miếng đệm để sử dụng dễ dàng hơn bằng một tay\nLưu ý: khởi động lại ứng dụng cài đặt để thấy hiệu ứng</string>
