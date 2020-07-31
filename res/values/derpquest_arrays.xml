@@ -784,7 +784,11 @@
         <item>@string/fod_recog_animation_miui_rhythm</item>
         <item>@string/fod_recog_animation_op_cosmos</item>
         <item>@string/fod_recog_animation_op_mclaren</item>
+        <item>@string/fod_recog_animation_op_stripe</item>
+        <item>@string/fod_recog_animation_op_wave</item>
+        <item>@string/fod_recog_animation_pureview_dna</item>
         <item>@string/fod_recog_animation_pureview_future</item>
+        <item>@string/fod_recog_animation_pureview_halo_ring</item>
         <item>@string/fod_recog_animation_pureview_molecular</item>
         <item>@string/fod_recog_animation_bluefirework</item>
         <item>@string/fod_recog_animation_coloros7_1</item>
@@ -806,6 +810,10 @@
         <item>11</item>
         <item>12</item>
         <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
     </string-array>
 
     <!-- Text Clock Alignment -->
