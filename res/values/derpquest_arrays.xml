@@ -442,6 +442,9 @@
         <item>XtendedLogoShort</item>
         <item>YinYang</item>
         <item>ZenXOSLogo</item>
+        <item>BlissLogo</item>
+        <item>CorVusLogo1</item>
+        <item>CorVusLogo2</item>
     </string-array>
 
     <string-array name="status_bar_logo_style_values" translatable="false">
@@ -535,6 +538,9 @@
         <item>87</item>
         <item>88</item>
         <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
     </string-array>
 
     <!-- Network traffic location -->
