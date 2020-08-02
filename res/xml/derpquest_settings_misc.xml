@@ -54,6 +54,13 @@
         android:summary="@string/allow_signature_fake_summary"
         android:defaultValue="false" />
 
+ 	<com.derpquest.settings.preferences.SystemSettingIntListPreference
+        android:key="theming_settings_dashboard_icons"
+        android:title="@string/theming_settings_dashboard_icons_title"
+        android:entries="@array/theming_settings_dashboard_icons_entries"
+        android:entryValues="@array/theming_settings_dashboard_icons_values"
+        android:defaultValue="0" />
+
     <PreferenceCategory
         android:key="aspect_ratio_category"
         android:title="@string/aspect_ratio_category_title">

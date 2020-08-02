@@ -1293,4 +1293,11 @@
     <string name="enable_oneui">Giao diện OneUI</string>
     <string name="enable_oneui_summary">Hiển thị thanh hành động cài đặt trên miếng đệm để sử dụng dễ dàng hơn bằng một tay\nLưu ý: khởi động lại ứng dụng cài đặt để thấy hiệu ứng</string>
 
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Cài đặt biểu tượng bảng điều khiển</string>
+    <string name="theming_settings_dashboard_icons_default2">Nền mặc định</string>
+    <string name="theming_settings_dashboard_icons_default_accent2">Nền màu nhấn</string>
+    <string name="theming_settings_dashboard_icons_plain">Giản dị</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Màu nhấn giản dị</string>
+
 </resources>
